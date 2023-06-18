@@ -62,26 +62,27 @@ const Relation = () => {
   };
     return(
         <div>
-      <div>
-        <label htmlFor="name1">Name 1:</label>
+      
+        
         <input
           type="text"
           id="name1"
           value={name1}
           onChange={handleName1Change}
           data-testid="input1"
+          placeholder="Enter first name"
         />
-      </div>
-      <div>
-        <label htmlFor="name2">Name 2:</label>
+      
+      
         <input
           type="text"
           id="name2"
           value={name2}
           onChange={handleName2Change}
           data-testid="input2"
+          placeholder="Enter second name"
         />
-      </div>
+      
       <button onClick={handleCalculateRelationship} data-testid="calculate_relationship">
         Calculate Relationship Future
       </button>
