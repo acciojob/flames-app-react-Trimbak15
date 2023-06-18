@@ -70,7 +70,7 @@ const Relation = () => {
           value={name1}
           onChange={handleName1Change}
           data-testid="input1"
-          name="first-name"
+          name="name1"
           placeholder="Enter first name"
         />
       
@@ -80,9 +80,9 @@ const Relation = () => {
           id="name2"
           value={name2}
           onChange={handleName2Change}
-          
+
           data-testid="input2"
-          name="second-name"
+          name="name2"
           placeholder="Enter second name"
         />
       
